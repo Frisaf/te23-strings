@@ -39,7 +39,7 @@ print("You suddenly feel very drawn to the dandelion, as if you are becoming one
 while True:
     answer = input("> ")
 
-    if answer.startswith("y") and answer.endswith("es"): # Egentligen ett superdumpt sätt att skriva if answer == "yes", men du ville att vi skulle använda olika operatorer så liksom... (shrug emoji)
+    if answer.startswith("y") and answer.endswith("es"): # Egentligen ett superdummt sätt att skriva if answer == "yes", men du ville att vi skulle använda olika operatorer så liksom... (shrug emoji)
         print("You suddenly feel taller, and a lot less fluffy and a lot slimmer. You also realise that you can't see anything. Just feel. You have become the dandelion.")
         break
 
